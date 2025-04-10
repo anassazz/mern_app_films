@@ -28,6 +28,7 @@ const Details = () => {
       <p><strong>Date de sortie :</strong> {movie.release_date}</p>
       <p><strong>Note :</strong> {movie.vote_average}/10</p>
       <p className="mt-4">{movie.overview}</p>
+      
     </div>
   );
 };
